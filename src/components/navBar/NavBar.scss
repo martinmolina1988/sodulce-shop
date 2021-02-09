@@ -1,0 +1,111 @@
+a.nav-link {
+    @media (min-width: 992px) {
+        border-bottom: 1px dashed deeppink !important;
+        border-top: 1px dashed deeppink !important;
+        margin: 0 3%;
+
+    }
+
+    @media (max-width: 992px) {
+        border-bottom: 1px dashed deeppink;
+        width: 15%;
+    }
+}
+
+h6 {
+    margin-top: 15% !important;
+    background-color: deeppink;
+    width: 30px;
+    font-size: 23px !important;
+    text-align: center;
+    color: black;
+    font-weight: bold !important;
+    border-radius: 25px;
+}
+
+.link {
+    @media (min-width: 992px) {
+        border-bottom: 1px dashed deeppink;
+        border-top: 1px dashed deeppink;
+        margin: 0 3%;
+
+    }
+
+    @media (max-width: 992px) {
+        border-bottom: 1px dashed deeppink;
+        width: 15%;
+    }
+}
+
+#basic-nav-dropdown {
+    width: 100%;
+
+}
+
+.navbar {
+    display: block !important;
+}
+
+.navbar-nav {
+
+    width: 100%;
+    margin-left: 2%;
+}
+
+.encabezado {
+    margin: 0;
+
+    .fondo-celeste {
+
+        background-color: #97D9E1;
+        height: 50px;
+
+        .flex {
+            display: flex;
+        }
+    }
+
+    .bg-light {
+        background-color: #97D9E1 !important;
+    }
+}
+
+.triang {
+    background: url("../../assets/png/top-triang.png") repeat-x;
+}
+
+
+.link {
+    font-size: 20px;
+    color: white !important;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    margin: 15px 15px;
+    padding: 5px;
+    white-space: nowrap;
+
+    &:hover {
+        text-decoration: none;
+        color: deeppink !important;
+        transition: 0.3s;
+        text-shadow: 1px 1px 2px black;
+    }
+}
+
+
+
+.logos {
+
+    width: 100%;
+
+    .logo {
+        width: 20%;
+        z-index: 5;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+}

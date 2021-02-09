@@ -1,0 +1,30 @@
+.bg {
+    min-height: 70vh;
+    background-image: url('https://visualhunt.com/photos/xl/7/wood-cottage-wood-house-cabine.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.sticky-top {
+    transition: all 0.25s ease-in;
+}
+
+/* style for when sitcky is applied */
+.stuck .sticky-top {
+    background-color: #ff1493 !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+.triang {
+    height: 13px;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    background: url("../../assets/png/top-triang.png") repeat-x;
+}
+
+.top {
+    width: 50px;
+    fill: #ff1493
+}

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Sweet_Dessert_DEMO';
+    src: url('Sweet_Dessert.woff2') format('woff2'),
+        url('Sweet_Dessert.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cherolina';
+    src: url('Cherolina.woff2') format('woff2'),
+        url('Cherolina.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
